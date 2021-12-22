@@ -1,4 +1,4 @@
-# Project Netflix
+# Template Netflix
 
 In this project, we cloned the visual part of the netflix platform. This project is based on JavaScript, using, more specifically, the React.js library.
 
