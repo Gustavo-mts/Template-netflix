@@ -1,5 +1,13 @@
 # Template Netflix
 
+## Instalation
+> git clone https://github.com/Gustavo-mts/Template-netflix.git
+
+> npm start
+
+
+## Description
+
 In this project, we cloned the visual part of the netflix platform. This project is based on JavaScript, using, more specifically, the React.js library.
 
 > Below, two presentations of the project in desktop and mobile format
