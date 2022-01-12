@@ -10,6 +10,7 @@ export default function featured({item})  {
     }
 
     let description = item.overview;
+    console.log(description);
     if(description.length > 200) {
         description = description.substring(0, 200)+ '...';
     }
