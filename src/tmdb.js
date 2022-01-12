@@ -12,7 +12,7 @@ const listasTmdb = {
             {
                 slug: 'originals',
                 title : "Originais do Netflix",
-                items : await basicFecth(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
+                items : await basicFecth(`/discover/tv/?with_network=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'trending',
