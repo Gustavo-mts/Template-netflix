@@ -10,9 +10,11 @@ export default function featured({item})  {
     }
 
     let description = item.overview;
-    console.log(description);
-    if(description.length > 200) {
-        description = description.substring(0, 200)+ '...';
+    
+    if(description !== undefined) {
+        if(description.length > 200) {
+            description = description.substring(0, 200)+ '...';
+        }
     }
 
     return (
@@ -20,7 +22,7 @@ export default function featured({item})  {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
-        }}>
+        }}> {console.log(item)}
         
         <div className="featured--vertical">
             <div className="featured--horizontal">
