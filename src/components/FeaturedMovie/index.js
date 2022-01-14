@@ -33,8 +33,8 @@ export default function featured({item})  {
                     <div className="featured--seasons">{item.number_of_seasons} temporada{item.number_of_seasons !==1 ? 's' : ''}</div>
                     <div className="featured--description">{description}</div>
                     <div className="featured--buttons">
-                        <a href={`/watch/${item.id}`} className="watchButton">► Assistir</a>
-                        <a href={`/list/add/${item.id}`} className="myListButton">+ Minha Lista</a>
+                        <a href={`/`} className="watchButton">► Assistir</a>
+                        <a href={`/`} className="myListButton">+ Minha Lista</a>
                     </div>
                     <div className="featured--genres">
                         <strong>Gêneros:</strong> {genres.join(', ')}</div>
