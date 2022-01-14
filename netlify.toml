@@ -1,4 +1,6 @@
 [build]
-base = "."
+base = "/opt/build/repo"
 command = 'CI= npm run build'
-publish = "./build"
+commandOrigin: 'config'
+publish = "/opt/build/repo/build"
+publishOrigin: 'config'
